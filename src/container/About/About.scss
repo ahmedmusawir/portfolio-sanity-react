@@ -13,12 +13,19 @@
 }
 
 .app__profiles-item {
-  width: 300px;
+  width: 200px;
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
   flex-direction: column;
   margin: 2rem;
+
+  @media screen and (min-width: 1300px) {
+    width: 300px;
+  }
+  @media screen and (max-width: 721px) {
+    width: 100%;
+  }
 
   img {
     width: 100%;

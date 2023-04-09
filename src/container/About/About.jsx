@@ -2,8 +2,8 @@ import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { AppWrap, MotionWrap } from '../../wrapper';
 import { images } from '../../constants';
-import './About.scss';
 import { urlFor, client } from '../../client';
+import './About.scss';
 
 // const abouts = [
 //   {
@@ -38,7 +38,7 @@ const About = () => {
   }, []);
   return (
     <>
-      <h2 className='head-text' style={{ marginTop: '5rem' }}>
+      <h2 className='head-text'>
         I Know that <span>A Good App</span>
         <br />
         means <span>Good Business!</span>
@@ -67,4 +67,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default AppWrap(About, 'about');
