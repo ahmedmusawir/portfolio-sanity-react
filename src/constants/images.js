@@ -25,7 +25,7 @@ import about04 from '../assets/about04.png';
 
 import profile from '../assets/moose_header_image.png';
 import circle from '../assets/circle.svg';
-import logo from '../assets/moose_logo.png';
+import logo from '../assets/moose-logo.png';
 
 import adidas from '../assets/adidas.png';
 import amazon from '../assets/amazon.png';
